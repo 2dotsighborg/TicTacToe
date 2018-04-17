@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="title_activity_player_vs_player">Player vs Player Mode</string>
+    <string name="instruction_text">PLEASE SELECT A LETTER FOR \'PLAYER 1\' AND PRESS PLAY</string>
+    <string name="x_letter">\'X\'</string>
+    <string name="o_letter">\'O\'</string>
+    <string name="play_btn_text">PLAY</string>
+    <string name="x_letter_pure">X</string>
+    <string name="o_letter_pure">O</string>
+    <string name="draw_text">DRAWS</string>
+    <string name="dash">0</string>
+    <string name="clear_board">CLEAR BOARD</string>
+    <string name="reset_game">RESET GAME</string>
+</resources>

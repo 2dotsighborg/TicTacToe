@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.tictactoe.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction_text"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <RadioGroup
+        android:id="@+id/select_letter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimary">
+        <RadioButton
+            android:id="@+id/option_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/x_letter"
+            android:onClick="xClick"
+            android:textSize="40sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@android:color/white"
+             />
+        <RadioButton
+            android:id="@+id/option_o"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/o_letter"
+            android:onClick="oClick"
+            android:textSize="40sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@android:color/white"
+            />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/play_btn"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="@string/play_btn_text"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</LinearLayout>
